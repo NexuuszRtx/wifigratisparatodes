@@ -25,7 +25,7 @@ export default function Home() {
               Muitos pedidos, FAZ O L.
             </h2>
 
-            <p>Em 15 minutos ou menos você receberá os dados de acesso desse serviço foda\n obs.. não ache estranho se um coreano vier falar contigo é normal! </p>
+            <p>Em 15 minutos ou menos você receberá os dados de acesso do wifi de 5002 megas mais rapido que uma bala no rio de janeiro desse serviço foda <strong> obs.. não ache estranho se um coreano vier falar contigo perguntando se você gosta de kpop é normal!</strong> </p>
           </div>
         </div>
       </div>
