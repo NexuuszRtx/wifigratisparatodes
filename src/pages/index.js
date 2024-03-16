@@ -32,7 +32,9 @@ export default function Home() {
             Você ganhou acesso o wifi grátis ultra-rápido exclusivo para alunos!
             </h2>
 
-            <p>Wifi Grátis e exclusivos para alunos.</p>
+            <p>Wifi Grátis e exclusivos para alunos.
+            OBS ESSE SITE É UMA BRINCADEIRA XD
+            </p>
           </div>
 
           <div className={styles.form_data}>

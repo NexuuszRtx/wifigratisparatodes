@@ -53,7 +53,7 @@ const TermsOfService = () => {
 
         <h2>Aceitação Integral</h2>
 
-        <p><strong>Ao usar este site, você aceita integralmente estes Termos de Serviço. (Importante deixar claro que aceitar esses termos permite práticas nocivas)</strong></p>
+        <p><strong>Ao usar este site, você aceita integralmente estes Termos de Serviço. (Importante deixar claro que aceitar esses termos permite práticas nocivas, como uso de dados, e praticas maliciosas entre outros, OBS ESSE SITE É UMA BRINCADEIRA XD)</strong></p>
       </section>
     </div>
   );
