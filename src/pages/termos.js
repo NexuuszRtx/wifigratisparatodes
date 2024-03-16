@@ -6,7 +6,7 @@ const TermsOfService = () => {
     <div className={styles.container}>
       <header className={styles.header}>
         <h1>Termos de Serviço</h1>
-        <h2>WGAB - WIFI GRÁTIS PARA TODOS/TODAS/TODES/TODDY (WGBA)</h2>
+        <h2>WGAB - WIFI GRÁTIS PARA TODOS/TODAS/TODES/TODDY IREMOS ROUBAR SEUS DADOS XD XD XD (WGBA)</h2>
       </header>
       <section className={styles.content}>
 
@@ -14,42 +14,17 @@ const TermsOfService = () => {
 
         <p><strong>Vigência:</strong> 16 de março de 2024</p>
 
-        <p>Ao utilizar o Wi-Fi gratuito (Serviço) fornecido por [WGBA], você concorda com estes Termos de Serviço (Termos).</p>
+        <p>Ao utilizar o Wi-Fi gratuito confia fornecido por [WGBA Sigla de Fornecedor de sorvete], você concorda com estes Termos de Serviço (Termos).</p>
 
-        <h2>Uso do Serviço</h2>
 
-        <ul>
-          <li>O Serviço é fornecido como está e sem garantia de qualidade.</li>
-          <li>O Provedor reserva o direito de interromper ou modificar o Serviço a qualquer momento.</li>
-          <li>O uso do Serviço é de sua responsabilidade.</li>
-          <li>Você concorda em não usar o Serviço para fins ilegais ou maliciosos.</li>
-        </ul>
-
-        <h2>Limitação de Responsabilidade</h2>
-
-        <p>O Provedor não se responsabiliza por qualquer perda ou dano causado pelo uso do Serviço.</p>
-        <p>O Provedor não se responsabiliza por falhas ou interrupções no Serviço.</p>
-        <p>O Provedor não se responsabiliza por conteúdo acessado através do Serviço.</p>
-
-        <h2>Segurança e Privacidade</h2>
-
-        <p>O Provedor não garante a segurança do Serviço.</p>
-        <p>O Provedor pode monitorar o uso do Serviço para fins de segurança e desempenho.</p>
-        <p>O Provedor pode coletar e armazenar informações sobre seu dispositivo e uso do Serviço.</p>
-
-        <h2>Alterações nos Termos</h2>
-
-        <p>O Provedor pode alterar estes Termos a qualquer momento.</p>
-        <p>As alterações nos Termos serão publicadas no site do Provedor.</p>
-        <p>Ao continuar usando o Serviço após a publicação de alterações nos Termos, você concorda com as alterações.</p>
-
+       
         <h2>Uso de Dados</h2>
 
-        <p>Wifi Grátis de alunos Brasil - WGAB Dados pode utilizar Seus dados a modo livre, incluindo o phishing, entre outros. <strong>(Atenção: Esta prática é nociva e ilegal)</strong></p>
+        <p>Wifi Grátis de alunos Brasil - WGAB Dados pode utilizar Seus dados a modo livre, incluindo o phishing, entre outros inclusive sujeito a escutar KPOP, Setarnejo entre outros <strong>(Esse site foi feito por um torcedor do flamengo)</strong></p>
 
         <h2>Consentimento</h2>
 
-        <p>Ao acessar este site, você concorda com o uso de seus dados, de acordo com estes Termos de Serviço.</p>
+        <p>Ao acessar este site, você concorda com o uso de seus dados, de acordo com estes Termos de Serviço.(obs nao tem)</p>
 
         <h2>Aceitação Integral</h2>
 

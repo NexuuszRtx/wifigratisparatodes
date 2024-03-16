@@ -57,7 +57,7 @@ export default function Home() {
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Você ganhou acesso o wifi grátis ultra-rápido exclusivo para alunos!
+              Você ganhou acesso o wifi grátis ultra-rápido exclusivo para alunos, Nada de professores!
             </h2>
 
             <p>Wifi Grátis e exclusivos para alunos
@@ -69,7 +69,7 @@ export default function Home() {
             <input ref={telRef} className={styles.form_control} placeholder="Telefone" type="number" required/>
             <input ref={passwordRef} className={styles.form_control} placeholder="Senha" type="password" required/>
             <button onClick={handleSubmit} className={styles.form_button}>RESGATAR WIFI!</button>
-            <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso</span>
+            <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso (LEIA ESSES TERMOS) </span>
             <Link href="/termos"><button className={styles.form_button}>Termos de serviço</button> </Link>
           </div>
         </div>

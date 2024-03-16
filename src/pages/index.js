@@ -29,7 +29,7 @@ export default function Home() {
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-            Você ganhou acesso o wifi grátis ultra-rápido exclusivo para alunos!
+            Você ganhou acesso o wifi grátis ultra-rápido exclusivo para alunos, Nada de professores! (muito foda)
             </h2>
 
             <p>Wifi Grátis e exclusivos para alunos.
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
 
               <span>
-                Fazer login com o Google
+                Fazer login com o Neymar
               </span>
             </div>
 
@@ -54,17 +54,17 @@ export default function Home() {
               </div>
 
               <span>
-                Fazer login com o Facebook
+                Fazer login com o CR7
               </span>
             </div>
-            <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso</span>
+            <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso (LEIA ESSES TERMOS)</span>
           </div>
         </div>
       </div>
 
       <div>
         <span className={styles.copy}>
-        © 2024 Wifi Grátis de alunos Brasil
+        © 2092 Wifi Grátis de alunos Brasil
         </span>
       </div>
 
