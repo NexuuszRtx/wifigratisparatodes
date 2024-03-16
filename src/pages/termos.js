@@ -15,11 +15,11 @@ const TermsOfService = () => {
           <p>Termos de Serviço - Wi-Fi Gratuito
           1. Aceitação:</p> 
 
-          Ao utilizar o Wi-Fi gratuito ("Serviço") fornecido por [WGBA], você concorda com estes Termos de Serviço ("Termos").
+          Ao utilizar o Wi-Fi gratuito (Serviço) fornecido por [WGBA], você concorda com estes Termos de Serviço (Termos).
 
           2. Uso do Serviço:
 
-          <p> O Serviço é fornecido "como está" e sem garantia de qualidade.
+          <p> O Serviço é fornecido como está e sem garantia de qualidade.
           O Provedor reserva o direito de interromper ou modificar o Serviço a qualquer momento.
           O uso do Serviço é de sua responsabilidade.
           Você concorda em não usar o Serviço para fins ilegais ou maliciosos.
