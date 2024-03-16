@@ -1,4 +1,5 @@
 /* styles/TermsOfService.module.css */
+p{text-wrap: wrap;}
 
 .container {
     font-family: sans-serif;
