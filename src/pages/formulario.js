@@ -46,7 +46,7 @@ export default function Home() {
     <div className={`${styles.container} ${inter.className}`}>
 
       <div>
-        <Image src="/hero2.png" alt="Wifi Grátis" width={152} height={48} />
+        <Image src="/cuidado.png" alt="Wifi Grátis" width={152} height={48} />
       </div>
 
       <div className={styles.form}>
