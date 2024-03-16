@@ -22,17 +22,17 @@ export default function Home() {
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Muitos pedidos, Mas relaxa.
+              Muitos pedidos, FAZ O L.
             </h2>
 
-            <p>Em 15 minutos ou menos você receberá os dados de acesso! </p>
+            <p>Em 15 minutos ou menos você receberá os dados de acesso desse serviço foda\n obs.. não ache estranho se um coreano vier falar contigo é normal! </p>
           </div>
         </div>
       </div>
 
       <div>
         <span className={styles.copy}>
-          © 2024 Wifi Grátis de alunos Brasil
+          © 2024 Wifi Grátis de alunos Brasil MUITO FODA
         </span>
       </div>
 

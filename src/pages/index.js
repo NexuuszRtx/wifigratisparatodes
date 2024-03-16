@@ -44,7 +44,7 @@ export default function Home() {
               </div>
 
               <span>
-                Fazer login com o Neymar
+                Fazer login com o Neymar (recomendado)
               </span>
             </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
                 Fazer login com o CR7
               </span>
             </div>
-            <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso (LEIA ESSES TERMOS)</span>
+            <span className={styles.terms}>Ao resgatar o wifi de 50023 megas você concorda com os Termos de Uso (LEIA ESSES TERMOS)</span>
           </div>
         </div>
       </div>
