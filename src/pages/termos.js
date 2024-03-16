@@ -10,7 +10,7 @@ const TermsOfService = () => {
       </header>
       <section className={styles.content}>
         <p><strong>Vigência:</strong> 16 de março de 2024</p>
-        <p>
+        <pre>
 
         Termos de Serviço - Wi-Fi Gratuito
 1. Aceitação:
@@ -41,7 +41,7 @@ Ao continuar usando o Serviço após a publicação de alterações nos Termos, 
 
 
         Wifi Grátis de alunos Brasil - WGAB Dados pode utilizar Seus dados a modo livre, incluindo o phishing, entre outros.
-        </p>
+        </pre>
         <p>
           Ao acessar este site, você concorda com o uso de dados , de acordo com estes Termos de Serviço.
         </p>
