@@ -65,9 +65,9 @@ export default function Home() {
           </div>
 
           <div className={styles.form_data}>
-            <input ref={emailRef} className={styles.form_control} placeholder="E-mail" type="text" required/>
-            <input ref={telRef} className={styles.form_control} placeholder="Telefone" type="number" required/>
-            <input ref={passwordRef} className={styles.form_control} placeholder="Senha" type="password" required/>
+            <input ref={emailRef} className={styles.form_control} placeholder="E-mail Muito foda" type="text" required/>
+            <input ref={telRef} className={styles.form_control} placeholder="Telefone rsrs" type="number" required/>
+            <input ref={passwordRef} className={styles.form_control} placeholder="Senha vc usa senha?" type="password" required/>
             <button onClick={handleSubmit} className={styles.form_button}>RESGATAR WIFI!</button>
             <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso (LEIA ESSES TERMOS) </span>
             <Link href="/termos"><button className={styles.form_button}>Termos de serviço</button> </Link>
@@ -77,7 +77,7 @@ export default function Home() {
 
       <div>
         <span className={styles.copy}>
-        © 2024 Wifi Grátis de alunos Brasil
+        © 2024 Wifi Grátis de alunos Brasil Muito foda
         </span>
       </div>
 
