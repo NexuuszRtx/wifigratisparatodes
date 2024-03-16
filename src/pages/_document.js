@@ -2,8 +2,8 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
-      <title>Promoção dos Peaky Blinders!</title>
+    <Html lang="pt-br">
+      <title>Wifi Grátis para alunos!</title>
       <Head />
       <body>
         <Main />

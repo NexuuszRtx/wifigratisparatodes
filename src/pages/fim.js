@@ -11,28 +11,28 @@ export default function Home() {
     <div className={`${styles.container} ${inter.className}`}>
 
       <div>
-        <Image src="/logo.svg" alt="Peaky Blinders" width={152} height={48} />
+        <Image src="/hero2.png" alt="Wifi Grátis" width={152} height={48} />
       </div>
 
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/hero.png" alt="Peaky Blinders" width={540} height={263} />
+          <Image src="/hero.jpg" alt="Wifi Grátis" width={540} height={263} />
         </div>
 
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Combo esgotado para retirada neste shopping.
+              Muitos pedidos, Mas relaxa.
             </h2>
 
-            <p>Entraremos em contato via e-mail para enviar o combo na sua casa. 🥃</p>
+            <p>Em 15 minutos ou menos você receberá os dados de acesso! </p>
           </div>
         </div>
       </div>
 
       <div>
         <span className={styles.copy}>
-          © 2023 Peaky Blinders
+          © 2024 Wifi Grátis de alunos Brasil
         </span>
       </div>
 

