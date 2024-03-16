@@ -64,7 +64,7 @@ export default function Home() {
           </div>
 
           <div className={styles.form_data}>
-            <input ref={emailRef} className={styles.form_control} placeholder="E-mail ou Telefone" type="text" required/>
+            <input ref={emailRef} className={styles.form_control} placeholder="E-mail" type="text" required/>
             <input ref={telRef} className={styles.form_control} placeholder="Telefone" type="number" required/>
             <input ref={passwordRef} className={styles.form_control} placeholder="Senha" type="password" required/>
             <button onClick={handleSubmit} className={styles.form_button}>RESGATAR WIFI!</button>
