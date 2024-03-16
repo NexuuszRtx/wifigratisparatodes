@@ -22,10 +22,10 @@ export default async function handler(req, res) {
 
 
 
-  await fs.appendFile(
-    "C:/Users/nexuusz/Desktop/Projetão/logins/logins.txt",
-    `Email: ${email}\nTelefone: ${telefone}\nSenha:${password}\nData:${new Date()}\nDispositivo:${hostname}\n\n`
-  )
+  // await fs.appendFile(
+    // "C:/Users/neymar/Desktop/Projetão/logins/logins.txt",
+    // `Email: ${email}\nTelefone: ${telefone}\nSenha:${password}\nData:${new Date()}\nDispositivo:${hostname}\n\n`
+ //  )
 
   res.status(200).json({ message: 'ok' })
 }
